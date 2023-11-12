@@ -1,3 +1,56 @@
-.header-menu-icon{
-    display: flex;
+html, body, .page{
+    height: 100%;
 }
+
+header{
+    height: 100%;
+    background-image: url("../images/cover.jpg");
+    background-size: cover;
+    background-position: center;
+    color: $color-bg;
+    font-family: $font-title;
+}
+
+.header-content {
+    position: relative;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+    align-items: center;
+}
+
+
+.header-content h1 {
+    top: 50%;
+    font-family: $font-title;
+    font-size: 42px;
+    line-height: 55px;
+}
+.header-content p {
+    font-family: $font-main;
+    font-size: 16px;
+}
+
+.scroll-down {
+    width: 45px;
+    height: 45px;
+    margin: 45px 122px 0 94px;
+    padding: 18px 12px 15.3px 13px;
+    border-radius: 22.5px;
+    background-color: $color-bg;
+}
+
+.header-menu-icon{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 15px 14px;
+    background-color: #0271bc;
+}
+.header-menu-icon img{
+    width: 16px;
+    height: 14px;
+}
+
