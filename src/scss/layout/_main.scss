@@ -4,18 +4,23 @@
 
 }
 
-.container_insomnia h3{
+h4{
     color: #8ccbea;
     font-family: $font-main;
     font-size: 14px;
     line-height: 30px;
 }
-.container_insomnia h2{
+h2{
     font-size: 24px;
     line-height: 30px;
     font-family: $font-title;
 }
-.container_insomnia p{
+h3{
+    font-size: 18px;
+    line-height: 30px;
+    font-family: $font-title;
+}
+p{
     font-size: 18px;
     line-height: 30px;
     color:#4a4a4a;
@@ -23,7 +28,7 @@
 }
 
 .go_button{
-    width: 76px;
+    // width: 76px;
     height: 45px;
     margin: 30px 214px 0 0;
     padding: 0 25px 0 26px;

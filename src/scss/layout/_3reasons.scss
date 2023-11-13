@@ -1,0 +1,26 @@
+.reasons {
+    background-color: $color-blue;
+    padding: 30px 15px 60px;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    
+
+}
+.reasons h3{
+    margin-top: 45px;
+}
+.reasons p{
+    margin: 0 70px ;
+}
+.reasons .go_button{
+    background-color: $color-go;
+    color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 2em;
+    max-width: 300px;
+    
+}
