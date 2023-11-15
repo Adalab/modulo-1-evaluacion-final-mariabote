@@ -7,28 +7,28 @@
 h4{
     color: #8ccbea;
     font-family: $font-main;
-    font-size: 14px;
-    line-height: 30px;
+    font-size: 0.875rem;
+    line-height: 1.875rem;
 }
 h2{
-    font-size: 24px;
-    line-height: 30px;
+    font-size:1.5rem;
+    line-height: 1.875rem;
     font-family: $font-title;
 }
 h3{
-    font-size: 18px;
-    line-height: 30px;
+    font-size:1.125rem;
+    line-height: 1.875rem;
     font-family: $font-title;
+
 }
 p{
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
     color:#4a4a4a;
     font-family: $font-main;
 }
 
 .go_button{
-    // width: 76px;
     height: 45px;
     margin: 30px 214px 0 0;
     padding: 0 25px 0 26px;
@@ -36,7 +36,7 @@ p{
     border: 2px solid  $color-go;
     color: $color-go;
     font-family: $font-main;
-    font-size: 1em;
+    font-size: 1.25rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,5 +45,44 @@ a:link, a:visited, a:hover, a:active {
     text-decoration: none;
   }
   
+@media (min-width: 768px) {
+    h4{
+        font-size: 0.875rem;
+    }
+    h2{
+        font-size: 1.625rem;
+        line-height: 2.813rem;
+    }
+    .go_button{
+        height: 45px;
+        margin: 30px 658px 0 0;
+        font-size: 1.25em;
+    }
+}
+@media (min-width: 1280px) {
+    h4{
+        font-size: 1rem;
+        line-height: 1.875rem;
+    }
+    h2{
+        font-size: 2rem;
+        line-height: 2.813rem;
+        
+    }
+    p{
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+    }
+    .go_button{
+        margin: 30px 579px 0 0;
+        
+    }
+    .container_insomnia{
+        padding: 60px 275px;
+      }
+    
+    }
+    
+
    
 
