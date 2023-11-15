@@ -27,12 +27,12 @@ header{
 .header-content h1 {
     top: 50%;
     font-family: $font-title;
-    font-size: 42px;
-    line-height: 55px;
+    font-size: 2.625rem;
+    line-height: 3.438rem;
 }
 .header-content p {
     font-family: $font-main;
-    font-size: 16px;
+    font-size: 1rem;
     color: white;
 }
 
@@ -43,9 +43,11 @@ header{
     padding: 18px 12px 15.3px 13px;
     border-radius: 22.5px;
     background-color: $color-bg;
-    
+    position: relative;
+    transform: translate(17px, -10px);
 }
 .scroll-down img{
+    padding-bottom: 10px;
     justify-content: center;
 }
 
@@ -61,3 +63,32 @@ header{
     height: 14px;
 }
 
+@media (min-width: 768px) {
+    .header-content {
+        top: 40%;
+    }
+    .header-content h1 {
+        font-size: 5rem;
+        line-height: 6.625rem;
+   }
+    .header-content p {
+        font-size: 1.5rem;
+    }
+.scroll-down {
+    width: 45px;
+    height: 45px;
+    margin: 30px 322px 0 px;
+    padding: 18px 12px 15.3px 13px;
+    border-radius: 22.5px;
+    background-color: $color-bg;
+    position: relative;
+    transform: translate(17px, -10px);
+}
+.scroll-down img{
+    padding-bottom: 10px;
+    justify-content: center;
+}
+}
+  @media (min-width: 1024px) {
+   
+  }
