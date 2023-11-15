@@ -74,21 +74,15 @@ header{
     .header-content p {
         font-size: 1.5rem;
     }
-.scroll-down {
-    width: 45px;
-    height: 45px;
-    margin: 30px 322px 0 px;
-    padding: 18px 12px 15.3px 13px;
-    border-radius: 22.5px;
-    background-color: $color-bg;
-    position: relative;
-    transform: translate(17px, -10px);
+    
 }
-.scroll-down img{
-    padding-bottom: 10px;
-    justify-content: center;
-}
-}
-  @media (min-width: 1024px) {
-   
+@media (min-width: 1280px) {
+    .header-content {
+        top: 60%;
+    }
+    .header-content h1 {
+        font-size: 6.25rem;
+        line-height: 8.25rem;
+   }
+    
   }
