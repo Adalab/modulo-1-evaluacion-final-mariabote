@@ -20,8 +20,15 @@
     margin-top: 2em;
     max-width: 300px;
     text-transform: capitalize;
+    transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
     
 }
+
+.reasons .go_button:hover{
+    color:$color-go;
+    background-color: $color-bg;
+}
+
 @media (min-width: 768px) {
     .reasons__container{
         display: grid;
@@ -37,7 +44,6 @@
 @media (min-width: 1280px) {
     .h3{
         font-size: 1.5rem;
-    }
-    
+    } 
 }
     

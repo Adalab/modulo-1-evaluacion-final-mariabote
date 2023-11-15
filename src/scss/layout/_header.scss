@@ -2,7 +2,6 @@ html, body, .page{
     height: 100%;
     width: 100%;
 }
-
 header{
     height: 100%;
     width: 100%;
@@ -12,7 +11,6 @@ header{
     color: $color-bg;
     font-family: $font-title;
 }
-
 .header-content {
     position: relative;
     top: 50%;
@@ -22,8 +20,6 @@ header{
     text-align: center;
     align-items: center;
 }
-
-
 .header-content h1 {
     top: 50%;
     font-family: $font-title;
@@ -35,7 +31,6 @@ header{
     font-size: 1rem;
     color: white;
 }
-
 .scroll-down {
     width: 45px;
     height: 45px;
@@ -50,7 +45,6 @@ header{
     padding-bottom: 10px;
     justify-content: center;
 }
-
 .header-menu-icon{
     position: fixed;
     top: 0;
@@ -62,7 +56,6 @@ header{
     width: 16px;
     height: 14px;
 }
-
 @media (min-width: 768px) {
     .header-content {
         top: 40%;
@@ -74,7 +67,6 @@ header{
     .header-content p {
         font-size: 1.5rem;
     }
-    
 }
 @media (min-width: 1280px) {
     .header-content {
@@ -84,5 +76,4 @@ header{
         font-size: 6.25rem;
         line-height: 8.25rem;
    }
-    
   }

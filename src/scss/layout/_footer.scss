@@ -1,5 +1,4 @@
 footer{
-    
     background-color: $color-dark-grey-blue;
     padding: 0px 15px 45px;
     color: white;
@@ -22,7 +21,6 @@ footer{
     font-size: 14px;
     font-family: $font-main;
     line-height: 30px;
-   
 }
 .heart{
     color: $color-go;
@@ -34,14 +32,16 @@ footer{
     border-radius: 22.5px;
     background-color: $color-bg;
     position: relative;
-    transform: translate(120px, -22px);
-    
+    transform: translate(0px, -22px);
+    margin: auto;
 }
-
+footer a {
+    color:$color-bg;
+}
+html {
+    scroll-behavior: smooth;
+}
 @media (min-width: 768px) {
-    .scroll-up {
-        transform: translate(346px, -25px); 
-    } 
     .footer{
         text-align: left;
     }
@@ -50,7 +50,6 @@ footer{
         flex-wrap: wrap;
         justify-content: space-around;
     }
-
     .footer__container__copy{
         order: -1;
         padding-top: 20px;
@@ -58,12 +57,6 @@ footer{
     }
 }
 @media (min-width: 1280px) {
-    .scroll-up {
-        transform: translate(622px, -25px); 
-    } 
-    .footer{
-        
-    }
     .footer__container{
         display: flex;
         flex-wrap: wrap;
